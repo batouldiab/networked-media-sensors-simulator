@@ -49,7 +49,7 @@ Explains operations like sensor registration, handling unavailable zones, backup
 
 ```shell
 git clone <repository-url>
-cd distributed-sensor-network
+cd distributed-sensor-network/src
 ```
 
 
