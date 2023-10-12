@@ -1,7 +1,7 @@
 # networked-media-sensors-simulator
 The project idea revolves around the development of a distributed system for managing sensors and data transmission where sensors are organized into different zones and managed by supervisors and sinks. The system is designed to handle communication protocols, data transmission, and supervision within a network of interconnected sensors, servers, and a supervisor. The system is designed to operate over a LAN or WIFI network. Here's a summary of the key components and functionalities described in the RFC files and a basic guide to setting up and running the project:
 
-## 1. Communication Protocol (RFC0001.md)
+## 1. Communication Protocol [(RFC0001.md)](RFC0001.md)
 ### Abstract
 Describes a protocol for exchanging data between sensors of different tiers and same tiers in the network.
 
@@ -12,7 +12,7 @@ Describes a protocol for exchanging data between sensors of different tiers and 
 ### Protocol Specification
 Includes details on routing, request/response handling, and packet structure.
 
-## 2. Data Transmission Protocol (RFC0002.md)
+## 2. Data Transmission Protocol [(RFC0002.md)](RFC0002.md)
 ### Abstract
 Regulates communication between a data server and sensors, specifying data format and transmission rules.
 
@@ -23,7 +23,7 @@ Regulates communication between a data server and sensors, specifying data forma
 ### Protocol Specification
 Covers operation, packet structures for streaming requests, data streaming, change requests, and "still alive" packets.
 
-## 3. Supervision Protocol (RFC0003.md)
+## 3. Supervision Protocol [(RFC0003.md)](RFC0003.md)
 ### Abstract
 Describes a protocol for exchanging data between the supervisor server, sensors, and sink.
 
